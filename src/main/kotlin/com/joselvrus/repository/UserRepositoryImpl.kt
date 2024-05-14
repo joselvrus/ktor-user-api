@@ -1,6 +1,6 @@
 package com.joselvrus.repository
 
-import com.joselvrus.model.User
+import com.joselvrus.data.model.User
 import io.github.oshai.kotlinlogging.KotlinLogging
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow

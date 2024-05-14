@@ -1,6 +1,6 @@
 package com.joselvrus.repository
 
-import com.joselvrus.model.User
+import com.joselvrus.data.model.User
 import kotlinx.coroutines.flow.Flow
 
 interface UserRepository {

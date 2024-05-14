@@ -1,4 +1,4 @@
-package com.joselvrus.serializers
+package com.joselvrus.data.dto.serializer
 
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.descriptors.PrimitiveKind
