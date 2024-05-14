@@ -16,9 +16,9 @@ fun User.toDTO() = UserResponseDTO(
 )
 
 fun UserRequestDTO.toModel() = User(
-    name = name,
-    lastname = lastname,
-    email = email,
-    image = image,
-    isActive = isActive
+    name = name.orEmpty(),
+    lastname = lastname.orEmpty(),
+    email = email.orEmpty(),
+    image = image ?: User.DEFAULT_IMAGE_URL,
+    isActive = isActive ?: true
 )

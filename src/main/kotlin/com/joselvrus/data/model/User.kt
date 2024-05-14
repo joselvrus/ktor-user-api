@@ -14,6 +14,6 @@ data class User(
 ){
     companion object{
         const val NEW_USER_ID = -1L
-        private const val DEFAULT_IMAGE_URL ="https://www.pngitem.com/pimgs/m/130-1300253_female-user-icon-png-download-user-image-color.png"
+        const val DEFAULT_IMAGE_URL ="https://www.pngitem.com/pimgs/m/130-1300253_female-user-icon-png-download-user-image-color.png"
     }
 }

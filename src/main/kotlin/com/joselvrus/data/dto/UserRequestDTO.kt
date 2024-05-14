@@ -4,9 +4,9 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class UserRequestDTO(
-    val name:String,
-    val lastname:String,
-    val email:String,
-    val image :String,
-    val isActive:Boolean = true
+    val name:String? = null,
+    val lastname:String? = null,
+    val email:String? = null,
+    val image :String? = null,
+    val isActive:Boolean? = null
 )
